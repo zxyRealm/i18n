@@ -5,3 +5,4 @@ describe('i18nLib', () => {
     expect(i18nLib()).toEqual('i18n-lib');
   });
 });
+
