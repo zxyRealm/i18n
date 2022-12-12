@@ -3,6 +3,9 @@
   "sourceRoot": "packages/i18n-lib/src",
   "projectType": "library",
   "targets": {
+    "dev": {
+      "executor": ""
+    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
