@@ -1,0 +1,28 @@
+{
+  "kiwiDir": "src/locales",
+  "configFile": "src/locales/kiwi-config.json",
+  "srcLang": "zh-CN",
+  "distLangs": ["en", "zh-CN"],
+  "translateOptions": {
+    "tld": "cn",
+    "concurrentLimit": 10,
+    "requestOptions": {},
+    "appid": "20210105000663752",
+    "secretKey": "W1uUbJOMvFevPj0OcjG1",
+    "minBreakTime": 1500
+  },
+  "excelOptions": {
+    "keyIndex": 1,
+    "valueIndex": 2
+  },
+  "importI18N": "import i18n from '@/locales'",
+  "exclude": [
+    "node_modules",
+    "src/locales",
+    "src/extract",
+    ".ts$",
+    "src/translate.js",
+    "src/demo"
+  ],
+  "include": ["src"]
+}
