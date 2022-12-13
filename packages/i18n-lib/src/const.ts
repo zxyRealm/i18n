@@ -104,7 +104,7 @@ export const PROJECT_CONFIG: Config = {
     ...common
   }`,
   zhTestFile: `export default {
-    test: '测试'
+    test: 'ceshi'
   }`,
 };
 

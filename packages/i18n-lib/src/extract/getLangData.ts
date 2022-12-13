@@ -59,7 +59,7 @@ function expandObject(obj: any) {
 }
 
 function getI18N(lang?: string) {
-  const paths = globby.globbySync(I18N_GLOB(lang));
+  const paths = globby.sync(I18N_GLOB(lang));
   const langObj = paths.reduce((prev: any, curr: any) => {
     const filename = curr
       .split('/')
