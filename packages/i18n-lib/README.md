@@ -26,6 +26,12 @@ export-*.txt
 
 ```
 
+## kiwi 使用调试说明
+
+clone 仓库至本地后， npm install 依赖； 再 cd packages/i18n-lib, 继续安装子包依赖， 依赖都安装完成后，本地执行 npm run dev 进行编译。由于当前仓库未发布 npm, 使用时需要可通过 npm link 方式。 npm link 完成后，通过 kiwi -V 查看版本信息确认是否成功。之后就可以根据一下命令说明进行使用
+
+注: 目前对于 React 项目， 仅支持 umijs 框架项目可用，国际化使用 umi 内置的 hooks, 页面中 const intl = useIntl() 的声明引入任然需要手动处理。
+
 ## CLI 参数
 
 ### kiwi `--init`
